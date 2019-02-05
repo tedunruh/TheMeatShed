@@ -1,0 +1,325 @@
+{
+  border-style: dashed;
+  color: blue;
+
+}
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #fffcf9;
+  text-align: center;
+	overflow-x: hidden;
+}
+
+/*===============
+===== MEDIA =====
+===============*/
+
+/*==== GALAXY S8 =====*/
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 767px)
+and (orientation: portrait) {
+}
+/*==== iPHONE PLUS - portrait =====*/
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (orientation: portrait) {
+ }
+/*==== iPAD =====*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+}
+
+/*=======================
+===== BROWSER FIXES =====
+=======================*/
+
+@-webkit-viewport {
+	width: device-width;
+}
+
+@-moz-viewport {
+	width: device-width;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@-o-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+/*==============
+===== LINE =====
+==============*/
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  margin: 0 auto 0 auto;
+  width: 200px;
+}
+
+/*=============
+===== box =====
+=============*/
+
+.icon-box {
+	display: inline-block;
+	width: 200px;
+	padding: 0px;
+	margin-bottom: 50px;
+	font-size: 1rem;
+	vertical-align: top;
+
+}
+
+/*==============
+===== FONT =====
+==============*/
+
+h1 {
+  text-transform: uppercase;
+  font-size: 4em;
+  letter-spacing: 3px;
+  text-align: center;
+  color: white;
+  padding: 300px;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+h4 {
+  text-align: center;
+  color: #4f4f4f;
+  font-family: 'EB Garamond';
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'EB Garamond';
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 0 15px 0 15px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+/*====================
+===== NAVIGATION =====
+====================*/
+
+.navigation {
+	position: absolute;
+  height: 100px;
+	z-index: 1000;
+	width: 100%;
+}
+
+.navigation li {
+  padding-top: 30px;
+  display: inline-block;
+  float: left;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navigation li a {
+  font-size: 1rem;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 10px 0 10px;
+}
+
+.navigation img {
+  width: 35px;
+  margin-top: -5px;
+}
+
+/*==============
+===== HOME =====
+==============*/
+
+.home {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/meat-shed-hero.jpg');
+}
+
+.home img{
+  margin: 25% 0 20% 0;
+  width: 80%;
+}
+
+/*==============
+==== STORY =====
+==============*/
+
+.story {
+  height: 100%;
+}
+
+ .box{
+   padding-top: 15%;
+   padding-bottom: 5%;
+   vertical-align: middle;
+   width: 80%;
+   margin: auto;
+ }
+
+.col-4,
+.col-6,
+.col-8 {
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 1rem;
+  vertical-align: top;
+
+ }
+
+.blox-left img{
+  width: 100%;
+  float: left;
+}
+
+.blox-right img{
+  width: 100%;
+  float: right;
+}
+
+.imgico {
+  margin: auto;
+}
+
+.imgico img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*===================
+===== HERO2 =====
+===================*/
+
+.hero2 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/meat-shed-locally-sourced.jpg');
+}
+
+.hero2 img{
+  margin: 20% 0 20% 0;
+  width: 80%;
+}
+
+/*===================
+===== HERO3 =====
+===================*/
+
+.hero3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/meat-shed-fine-meat.jpg');
+}
+
+.hero3 img{
+  margin: 20% 0 20% 0;
+  width: 80%;
+}
+
+/*===============
+==== STORY2 =====
+===============*/
+
+.story2 {
+  padding: 125px 200px 25px 200px;
+ }
+
+
+/*==================
+===== SEPERATE =====
+==================*/
+
+.seperate {
+  display: inline-block;
+  width: 100%;
+}
+
+.seperate hr {
+  display: block;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  width: 80%;
+}
+
+.seperate img {
+  display: block;
+  margin: 0 auto;
+  width: 40px;
+  opacity: 0.3;
+}
+
+/*=============
+===== BOF =====
+=============*/
+
+.bof {
+  padding: 5% 10% 0 10%;
+}
+
+.col-sm-3{
+  margin-top: 25px;
+}
+
+.btn{
+  width: 100%
+}
+
+.MenuButton {
+
+  margin: 0 auto;
+  background:  transparent;
+  height:  45px;
+  line-height:  40px;
+  border:  2px solid #4f4f4f;
+  width:  120px;
+  margin: 50px;
+  color: #4f4f4f;
+  text-align: center;
+}
