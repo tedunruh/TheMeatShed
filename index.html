@@ -20,10 +20,8 @@
  <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day">
 
- <link rel="stylesheet" type="text/css" href="main.css">
- <link rel="stylesheet" type="text/css" href="footer.css">
- <link rel="stylesheet" type="text/css" href="navigation.css">
- <link rel="stylesheet" type="text/css" href="responsive.css">
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
+
  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114114744-1"></script>
 <script>
@@ -34,78 +32,59 @@
   gtag('config', 'UA-114114744-1');
 </script>
 
+<!--load amimate.css from CDN-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+
+<!--load WOW js from CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+</script>
+
 </head>
 <body>
-
-  <!--==================
-  ===== NAVIGATION =====
-  ===================-->
-
-  <nav class="navigation">
-   <ul>
-    <li><a href="tel:6207041369">ORDER NOW! - CALL | 620.704.1369</a></li>
-    <li><a href="shop.html">SHOP</a></li>
-    <li><a href="menu.html">MENU</a></li>
-    <li><a href="index.html"><img src="../images/pig-nav.svg"/></a></li>
-   </ul>
-  </nav>
-
-  <!-- comment -->
-
-<!--==========================
+<!--==================
+===== NAVIGATION =====
+===================-->
+<nav>
+ <img src="../images/meat-shed-pig.svg"/>
+ <ul>
+  <li><a href="tel:6207041369">ORDER NOW! - CALL | 620.704.1369</a></li>
+  <li><a href="shop.html">SHOP</a></li>
+  <li><a href="menu.html">MENU</a></li>
+ </ul>
+</nav>
+<!--============
 ===== HOME =====
-===========================-->
-
-<section class="home">
- <img src="../images/meat-shed-logo.svg" height="250px"/>
+=============-->
+<section class="main-home">
+ <img class="fadeUp" src="../images/meat-shed-logo.svg">
 </section>
-
 <!--=============
 ===== STORY =====
 ==============-->
-
 <section class="story">
-  <div class="col-6">
-    <div class="box">
-      <div  class="imgico">
-       <img src="../images/meat-shed-pig.svg" width="40px"/>
-      </div>
-   <h2>OUR STORY</h2>
-   <h4>Crafting Fine Meats</h4>
-   <p>
-    The Meat Shed prides itself on keeping alive the art of crafting fine meats.
-    Our charcuterie is uniquely delicious because we are locally sourced and make
-    everything by hand. This makes our food irresistible and important to the
-    culture of Southeast Kansas and the Little Balkan tradition.
-   </p>
-   </div>
-  </div>
- <div class="col-6 blox-right">
-  <img src="../images/meat-shed-story.jpg"/>
+ <div class="wow fadeInLeft">
+  <h2>OUR STORY</h2>
+  <h4>Crafting Fine Meats</h4>
+  <p>
+   The Meat Shed prides itself on keeping alive the art of crafting fine meats.
+   Our charcuterie is uniquely delicious because we are locally sourced and make
+   everything by hand. This makes our food irresistible and important to the
+   culture of Southeast Kansas and the Little Balkan tradition.
+  </p>
  </div>
-
 </section>
-
-<!--=================
-===== HERO2 =====
-==================-->
-
-<section class="hero2">
+<!--===============
+===== SOURCED =====
+================-->
+<section class="sourced">
  <img src="../images/locally-sourced.svg" height="200"/>
 </section>
-
-<!--=============
-===== STORY =====
-==============-->
-
-<section class="story">
-
- <div class="col-6">
-   <div class="box">
-  <div  class="imgico">
-   <img src="../images/meat-shed-cleaver.svg" width="40px"/>
-  </div>
-  <h2>THE KITCHEN</h2>
+<!--===============
+===== KITCHEN =====
+================-->
+<section class="kitchen">
+ <div class="wow fadeInLeft">
+  <h2>The Kitchen</h2>
   <h4>Locally Sourced Products</h4>
   <p>
     The Meat Shed name represents premium quality and classic flavors. We exist
@@ -116,28 +95,18 @@
     with the highest quality ingredients to help them cook healthier meals that just
     taste better. Try it out!
   </p>
-
-  </div>
- </div>
- <div class="col-6 blox-right">
-  <img src="../images/meat-shed-kitchen.jpg"/>
  </div>
 </section>
-
 <!--=================
-===== HERO2 =====
+===== FINE MEAT =====
 ==================-->
-
-<section class="hero3">
+<section class="fineMeat">
  <img src="../images/meat-shed-fine-meat.svg" height="200"/>
 </section>
-
 <!--===============
-===== STORY2 =====
+===== BOF =====
 ================-->
-
 <section class="bof">
- <img src="../images/meat-shed-knife.svg" width="60px"/>
  <h2>BOARD OF FARE</h2>
  <h4>Responsibly Handmade</h4>
  <p>
@@ -148,58 +117,42 @@
   nourishing food of the highest quality and taste.
  </p>
 </section>
-
 <!--===========
 ===== BOF =====
 ============-->
-
-<section class="bof">
-
-  <div class="col-sm-3">
-    <div class="row text-center">
-   <img src="../images/meat-shed-fresh-sausage.png" height="100px">
- <h3>Fresh Sausage</h3>
- <p>Handmade in the Little Balkan tradition samplings include Little Balkan, Beer Brawtwurst, and Breakfast Sausages.</p>
+<section class="bof-boxes">
+ <div class="bof-box">
+    <img src="../images/meat-shed-fresh-sausage.png" height="100px">
+    <h3>Fresh Sausage</h3>
+    <p>Handmade samplings include Little Balkan, Beer Brawtwurst, and Breakfast Sausages.</p>
  </div>
-</div>
- <div class="col-sm-3">
-   <div class="row text-center">
-   <img src="../images/meat-shed-heritage-pork-cuts.png" height="100px">
-   <h3>Heritage Pork Cuts</h3>
-    <p>Heritage pork is always a favorite for our Meat Shed families.</p>
-  </div>
-</div>
- <div class="col-sm-3">
-   <div class="row text-center">
-   <img src="../images/meat-shed-bacon.png" height="100px">
-    <h3>Bacon</h3>
-     <p>The fans of our maple black pepper bacon say...It's smack your mamma good.</p>
-   </div>
-   </div>
-    <div class="col-sm-3">
-      <div class="row text-center">
-      <img src="../images/meat-shed-charcuterie.png" height="100px">
-       <h3>Charcuterie</h3>
-       <p>Our charcuterie is handmade with classic practices, recipes, and ingredients.</p>
-     </div>
-      </div>
-
-  </section>
-
-<!--=================
-===== VIEW MENU =====
-==================-->
-
-<section class="btn">
-   <input class="MenuButton" type="button" value="VIEW MENU" onclick="window.location.href='menu.html'">
+ <div class="bof-box">
+  <img src="../images/meat-shed-heritage-pork-cuts.png" height="100px">
+  <h3>Heritage Pork Cuts</h3>
+  <p>Sourced from humanely raise their pigs, Heritage pork is always a favorite for our Meat Shed families.</p>
+ </div>
+ <div class="bof-box">
+  <img src="../images/meat-shed-bacon.png" height="100px">
+  <h3>Bacon</h3>
+  <p>The fans of our maple black pepper bacon say...It's smack your mamma good.</p>
+ </div>
+ <div class="bof-box">
+  <img src="../images/meat-shed-charcuterie.png" height="100px">
+  <h3>Charcuterie</h3>
+  <p>Our charcuterie is handmade with classic practices, recipes, and ingredients.</p>
+ </div>
 </section>
-
+<!--======================
+===== CALL TO ACTION =====
+=======================-->
+<section class="call-to-action">
+   <a class="btn-2 secondary-btn" href="menu.html"><h5>VIEW MENU</h5></a>
+</section>
 <!--==============
 ===== FOOTER =====
 ===============-->
-
-<footer class="footer">
- <div class="footer-box">
+<footer>
+ <div class="box">
   <h3>GET SOCIAL</h3>
  	<a href="https://www.instagram.com/themeatshed/">
   <img src="../images/instagram.svg" width="30px" alt="logo"></a>
@@ -208,10 +161,10 @@
   <a href="https://twitter.com/Meat_Shed/">
   <img src="../images/twitter.svg" width="30px" alt="logo"></a>
  </div>
- <div class="footer-box">
+ <div class="box">
  <img src="../images/themeatshed-footer.svg" width="100px" alt="logo">
  </div>
- <div class="footer-box">
+ <div class="box">
 	<h3>ORDER TODAY!</h3>
 	<li><a href="tel:6207041369"><p>620.704.1369</p></a></li>
  </div>
@@ -219,8 +172,8 @@
 <section class="footer2">
  <p>
   &copy; 2018 THE MEAT SHED | Website Created by <a href="https://www.tedunruh.com/">TED UNRUH</a>
- </p>
+</p>
 </section>
-
 </body>
+<script> new WOW().init(); </script>
 </html>

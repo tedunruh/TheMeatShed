@@ -20,10 +20,8 @@
  <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day">
 
- <link rel="stylesheet" type="text/css" href="main.css">
- <link rel="stylesheet" type="text/css" href="footer.css">
- <link rel="stylesheet" type="text/css" href="navigation.css">
- <link rel="stylesheet" type="text/css" href="responsive.css">
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
+
  <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114114744-1"></script>
 <script>
@@ -34,48 +32,50 @@
   gtag('config', 'UA-114114744-1');
 </script>
 
+<!--load amimate.css from CDN-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+
+<!--load WOW js from CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+</script>
+
 </head>
 <body>
-
-  <!--==================
-  ===== NAVIGATION =====
-  ===================-->
-
-  <nav class="navigation">
-   <ul>
-    <li><a href="tel:6207041369">ORDER NOW! - CALL | 620.704.1369</a></li>
-    <li><a href="shop.html">SHOP</a></li>
-    <li><a href="menu.html">MENU</a></li>
-    <li><a href="index.html"><img src="../images/pig-nav.svg"/></a></li>
-   </ul>
-  </nav>
-
-<!--==========================
+<!--==================
+===== NAVIGATION =====
+===================-->
+<nav>
+ <img src="../images/meat-shed-pig.svg"/>
+ <ul>
+  <li><a href="tel:6207041369">ORDER NOW! - CALL | 620.704.1369</a></li>
+  <li><a href="shop.html">SHOP</a></li>
+  <li><a href="menu.html">MENU</a></li>
+ </ul>
+</nav>
+<!--============
 ===== HOME =====
-===========================-->
-
-<section class="home">
- <h1>coming soon<h1>
+=============-->
+<section class="main-home">
+ <img class="fadeUp" src="../images/meat-shed-logo.svg">
+ <h2>SHOP COMING SOON</h2>
 </section>
-
 <!--==============
 ===== FOOTER =====
 ===============-->
-
-<footer class="footer">
- <div class="footer-box">
+<footer>
+ <div class="box">
   <h3>GET SOCIAL</h3>
  	<a href="https://www.instagram.com/themeatshed/">
-  <img src="../images/instagram.svg" width="40px" alt="logo"></a>
+  <img src="../images/instagram.svg" width="30px" alt="logo"></a>
  	<a href="https://www.facebook.com/frontenac.charcuterie/">
-  <img src="../images/facebook.svg" width="40px" alt="logo"></a>
+  <img src="../images/facebook.svg" width="30px" alt="logo"></a>
   <a href="https://twitter.com/Meat_Shed/">
-  <img src="../images/twitter.svg" width="40px" alt="logo"></a>
+  <img src="../images/twitter.svg" width="30px" alt="logo"></a>
  </div>
- <div class="footer-box">
- <img src="../images/themeatshed-footer.svg" width="150px" alt="logo">
+ <div class="box">
+ <img src="../images/themeatshed-footer.svg" width="100px" alt="logo">
  </div>
- <div class="footer-box">
+ <div class="box">
 	<h3>ORDER TODAY!</h3>
 	<li><a href="tel:6207041369"><p>620.704.1369</p></a></li>
  </div>
@@ -83,8 +83,8 @@
 <section class="footer2">
  <p>
   &copy; 2018 THE MEAT SHED | Website Created by <a href="https://www.tedunruh.com/">TED UNRUH</a>
- </p>
+</p>
 </section>
-
 </body>
+<script> new WOW().init(); </script>
 </html>

@@ -1,0 +1,369 @@
+{
+  border-style: dashed;
+  color: blue;
+}
+*,
+*:before,
+*:after {
+	padding: 0px;
+	margin: 0px;
+	transition: 0.3s;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+li,
+ul,
+ol {
+	list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+html {
+	font-size: 14px;
+}
+body {
+  font-family: 'EB Garamond';
+  background-color: #fffcf9;
+  text-align: center;
+	overflow-x: hidden;
+}
+/*==============
+===== LINE =====
+==============*/
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #4f4f4f;
+  margin: 25px auto 25px auto;
+  width: 200px;
+}
+.imgico {
+  width: 40px;
+  margin-top: 50px;
+}
+.border {
+  border-style: solid;
+  color: #e8e6e1;
+  border-width: 1px;
+}
+/*=======================
+===== BROWSER FIXES =====
+=======================*/
+@-webkit-viewport {
+	width: device-width;
+}
+@-moz-viewport {
+	width: device-width;
+}
+@-ms-viewport {
+	width: device-width;
+}
+@-o-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+/*==============
+===== FONT =====
+==============*/
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+  color: #fff;
+}
+h1 {
+  font-size: 3rem;
+  font-family: 'Oswald', sans-serif;
+  color: #4f4f4f;
+}
+h2 {
+  font-size: 3rem;
+  font-family: 'Oswald', sans-serif;
+}
+h3 {
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
+h5 {
+  font-size: 1.5rem;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 1.25rem;
+  max-width: 450px;
+}
+.fresh-sausage p, .pork-cuts p, .bacon p, .charcuterie p, .specialties p {
+  color: #4f4f4f;
+  margin: auto;
+}
+/*====================
+===== NAVIGATION =====
+====================*/
+nav {
+  position: fixed;
+  height: 75px;
+	z-index: 1000;
+	width: 100%;
+  background-color: #fff;
+}
+nav li {
+  padding: 30px 10px;
+  display: inline-block;
+  float: right;
+}
+nav li a {
+  font-size: 1rem;
+  color: #333333;
+  font-family: 'Oswald';
+  letter-spacing: 1px;
+	font-weight: 300;
+  padding: 22px;
+  text-decoration: none;
+}
+nav li a:hover{
+  border-bottom: solid 3px;
+  border-color: #b4892d;
+  bottom: 100;
+  text-decoration: none;
+}
+nav img {
+  float: left;
+  padding: 25px;
+  width: 100px;
+}
+
+/*===================
+===== HERO FADE =====
+===================*/
+.fadeUp{
+  position:relative;
+    animation-delay: 1s;
+    animation:myfirst 1s;
+    animation: fadein 1s;
+    -webkit-animation:myfirst 1s ease-out forwards;
+  }
+@keyframes myfirst
+  {
+from {top:30px; opacity: 0;}
+to {top:0px; opacity: 1;}
+}
+/*==========================================
+============================================
+============== MAIN SECTIONS ===============
+============================================
+==========================================*/
+/*===================
+===== MAIN HOME =====
+===================*/
+.main-home {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/meat-shed-hero.jpg');
+}
+.main-home img{
+  padding: 275px 0 275px 0;
+  width: 50%;
+
+}
+/*==============
+==== STORY =====
+==============*/
+.story {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0 450px 50px;
+  height: 100%;
+  text-align: left;
+  background-image: url('../images/meat-shed-story.jpg');
+}
+/*=================
+===== SOURCED =====
+=================*/
+.sourced{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/meat-shed-locally-sourced.jpg');
+}
+.sourced img{
+  margin: 20% 0 20% 0;
+  width: 80%;
+}
+/*================
+==== KITCHEN =====
+================*/
+.kitchen {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0 450px 50px;
+  height: 100%;
+  text-align: left;
+  background-image: url('../images/meat-shed-kitchen.jpg');
+}
+/*===================
+===== FINE MEAT =====
+===================*/
+.fineMeat {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../images/meat-shed-fine-meat.jpg');
+}
+.fineMeat img{
+  margin: 20% 0 20% 0;
+  width: 80%;
+}
+/*=============
+===== BOF =====
+=============*/
+.bof {
+  padding: 75px;
+}
+.bof h2, .bof h2, .bof p{
+  color: #333333;
+  margin: auto;
+}
+.bof p{
+  max-width: 600px;
+}
+.bof-box p{
+  color: #333333;
+  width: 250px;
+  margin: auto;
+}
+.bof-box{
+  display: inline-block;
+  padding-top: 50px;
+  width: 275px;
+}
+/*========================
+===== CALL TO ACTION =====
+========================*/
+.call-to-action{
+padding: 50px;
+}
+/*=================
+===== BUTTONS =====
+=================*/
+.btn-2 {
+	position: relative;
+	z-index: 100;
+	padding: 10px 40px;
+	cursor: pointer;
+	font-size: 1.2rem;
+  color: white;
+	text-transform: uppercase;
+	background: transparent;
+	margin-top: 25px;
+}
+.secondary-btn {
+  display: inline-block;
+  background-color: #b4892d;
+}
+.secondary-btn:hover {
+  background-color: #303030;
+}
+/*==========================================
+============================================
+============== MENU SECTIONS ===============
+============================================
+==========================================*/
+/*===================
+===== MENU HOME =====
+===================*/
+.menu-home {
+  position: relative;
+  background-image: url('../images/meat-shed-menu-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.menu-home img{
+  margin: 250px 0 250px 0;
+  width: 40%;
+}
+.menu{
+  margin: 50px 0 50px 0;
+}
+/*=======================
+===== FRESH SAUSAGE =====
+=======================*/
+.fresh-sausage {
+  position: relative;
+  background-image: url('../images/menu-freshsausage.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/*=======================
+===== PORK CUTS =====
+=======================*/
+.pork-cuts {
+  position: relative;
+  background-image: url('../images/menu-pork-cuts.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/*===============
+===== BACON =====
+===============*/
+.bacon {
+  position: relative;
+  background-image: url('../images/menu-bacon.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/*=======================
+===== CHARCUTERIE =====
+=======================*/
+.charcuterie {
+  position: relative;
+  background-image: url('../images/menu-charcuterie.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/*=====================
+===== SPECIALTIES =====
+=====================*/
+.specialties {
+  position: relative;
+  background-image: url('../images/menu-specialties.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/*================
+===== FOOTER =====
+================*/
+footer {
+	background: #232323;
+}
+footer img{
+	margin: 15px;
+}
+footer .box {
+	display: inline-block;
+	vertical-align: top;
+	margin: 75px 100px 75px 100px;
+	min-width: 150px;
+}
+.footer2 {
+  width: 100%;
+	padding: 20px;
+  background: #303030;
+}
+.footer2 a {
+color: #A9A9A9;
+}
